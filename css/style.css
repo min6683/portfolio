@@ -363,8 +363,101 @@ body {
     display: block;
 }
 .life .container {
+    height: 1000px;
+}
+.life .container h2 {
+    margin-top: 300px;
+}
+.life-box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.life-img {
+    position: relative;
+    display: block;
+}
+.life-img img {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 6px 25px rgb(86 86 77 / 49%);
+
+}
+.life-img h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #314163;
+}
+.mbti-img {
+    position: relative;
+    display: block;
+    float: left;
+    margin-top: 200px;
+    width: 30%;
+}
+.mbti-img img {
+    float: left;
+}
+.mbti-tit {
+    position: relative;
+    display: block;
+    margin-top: 230px;
+    float: right;
+    width: 70%;
+    color: #314163;
+    font-size: 24px;
+}
+.mbti-tit .mt-txt {
+    margin-top: 20px;
+    color: #0066cc;
+    font-size: 18px;
+    line-height: 30px;
+}
+.contact {
+    position: relative;
+    display: block;
+}
+.contact .container {
     height: 500px;
+    margin-top: 300px;
 }
 /* //main */
 /* footer */
+.footer {
+    position: relative;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #314163;
+}
+.footer .container {
+    padding: 50px 0;
+}
+
+.footer .container a {
+    position: relative;
+    display: inline-block;
+    font-size: 24px;
+    color: #314163;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+}
+.footer .container a:hover {
+    color: #1697bf;
+}
+
+.footer-tit {
+    position: relative;
+    display: block;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+.footer .container li a {
+    color: #314163;
+    font-size: 16px;
+}
+.footer .container li a:hover {
+    color: #1697bf;
+}
 /* //footer */
