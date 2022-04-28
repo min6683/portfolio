@@ -41,6 +41,18 @@
       "css": "attention-alt",
       "code": 61738,
       "src": "fontawesome"
+    },
+    {
+      "uid": "5bb103cd29de77e0e06a52638527b575",
+      "css": "wrench",
+      "code": 59394,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "3d4ea8a78dc34efe891f3a0f3d961274",
+      "css": "info",
+      "code": 61737,
+      "src": "fontawesome"
     }
   ]
 }

@@ -18,8 +18,22 @@ window.onload = function () {
         }, 500);
     });
 
+    let gnb_a = $('.gnb a');
+    $(document).ready(function ($) {
+
+        $(gnb_a).click(function (event) {
+
+            event.preventDefault();
+
+            $('html,body').animate({
+                scrollTop: $(this.hash).stop().offset().top - 100
+            }, 500);
+
+        });
+
+    });
 };
 
-$(document).ready(function(){
+$(document).ready(function () {
 
 });

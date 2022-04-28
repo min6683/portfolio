@@ -181,7 +181,7 @@ body {
 }
 .about-tit {
     color: #314163;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 30px;
     margin-bottom: 50px;
 }
@@ -370,12 +370,13 @@ body {
     position: relative;
     display: block;
     margin-top: 1px;
+    padding: 20px;
 }
 .cc-link {
     position: relative;
     margin-top: 10px;
     display: inline-block;
-    padding: 15px 25px;
+    padding: 10px 12px;
     border: 3px solid #3c67e3;
     border-radius: 10px;
     font-size: 16px;
@@ -398,6 +399,35 @@ body {
     animation: pulsate 1s ease-in-out;
     color: #1697bf;
 }
+.cc-div-icon {
+    position: absolute;
+    right: 80px;
+    bottom: 28px;
+    display: block;
+    width: 40px;
+    height: 40px;
+    z-index:999;
+}
+.cc-div-icon i {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+.cc-div-icon i:nth-child(1) {
+    right: 10px;
+    bottom: 0px;
+}
+.cc-div-icon i:nth-child(2) {
+    right: -25px;
+    
+    bottom: 40px;
+}
+.cc-div-icon i:nth-child(3) {
+    right: -65px;
+    bottom: 79px;
+}
+
 
 @keyframes pulsate {
     0%{
