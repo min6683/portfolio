@@ -363,11 +363,17 @@ body {
 
 .cc-div:hover > img {
     filter: grayscale(0%);    
-    box-shadow: 0 6px 25px rgb(86 86 77 / 49%);
+    box-shadow: 10px 5px 5px rgb(0 0 0 / 30%);
 }
 
+.cc-div-box {
+    position: relative;
+    display: block;
+    margin-top: 1px;
+}
 .cc-link {
-    margin-top: 340px;
+    position: relative;
+    margin-top: 10px;
     display: inline-block;
     padding: 15px 25px;
     border: 3px solid #3c67e3;
@@ -377,11 +383,22 @@ body {
     transition: color 0.3s;
     background-color: #fff;
 }
+.cc-div-title {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #314163;
+}
+.cc-div-txt {
+    font-size: 14px;
+    color: #0c74db;
+}
 
 .cc-link:hover {
     animation: pulsate 1s ease-in-out;
     color: #1697bf;
 }
+
 @keyframes pulsate {
     0%{
         box-shadow: 0 0 25px #5ddcff, 0 0 15px #4e00c2;
@@ -395,7 +412,7 @@ body {
     height: 500px;
 }
 .life .container h2 {
-    margin-top: 300px;
+    margin-top: 700px;
 }
 .life-box {
     position: relative;
@@ -409,7 +426,7 @@ body {
 .life-img img {
     width: 400px;
     height: 400px;
-    box-shadow: 0 6px 25px rgb(86 86 77 / 49%);
+    box-shadow: 10px 5px 5px rgb(0 0 0 / 30%);
 
 }
 .life-img h3 {
