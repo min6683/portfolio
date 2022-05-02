@@ -8,6 +8,11 @@ window.onload = function () {
         },
         spaceBetween: 30,
     });
+    $(".hover").mouseleave(
+        function () {
+            $(this).removeClass("hover");
+        }
+    );
 
     // 위로 가기
     let gotop = $('.gotop');
@@ -26,7 +31,7 @@ window.onload = function () {
             event.preventDefault();
 
             $('html,body').animate({
-                scrollTop: $(this.hash).stop().offset().top - 100
+                scrollTop: $(this.hash).stop().offset().top - 160
             }, 500);
 
         });
