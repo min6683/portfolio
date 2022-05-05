@@ -40,7 +40,6 @@ html {
 body {
     font-family: 'Noto Sans KR', 'NanumSquare', '돋움', Dotum, '굴림', Gulim, Helvetica, 'Apple SD Gothic Neo', Tahoma, Geneva, sans-serif, verdana;
     font-size: 16px;
-
 }
 
 /* 공통요소 */
@@ -150,7 +149,7 @@ body {
     font-size: 40px;
     color: #314163;
     font-weight: bold;
-    z-index: 1;
+    z-index: 3;
 }
 
 .visual-tit h2 strong {
@@ -162,12 +161,12 @@ body {
 .visual-tit h2::before {
     content: '';
     position: absolute;
-    right: -300px;
-    top: 60px;
+    right: -200px;
+    top: -100px;
     display: block;
-    width: 400px;
-    height: 400px;
-    background: url('../images/imgss.png') no-repeat center;
+    width: 500px;
+    height: 500px;
+    background: url('../images/visual1.png') no-repeat center;
     z-index: -1;
 }
 
@@ -181,13 +180,12 @@ body {
 .about {
     position: relative;
     display: block;
-    height: 100vh;
-    background-color: rgba(195, 204, 166, 0.2);
+    background-color: #fff2ce;
 }
 
 .about .container {
     height: 630px;
-    margin-top: 700px;
+    margin-top: 500px;
     margin-bottom: 500px;
 }
 
@@ -282,6 +280,9 @@ body {
     margin-top: 100px;
     height: 600px;
 }
+.skill .container .about-tit {
+    margin-bottom: 30px;
+}
 
 .skill-left {
     position: relative;
@@ -311,7 +312,7 @@ body {
     content: '';
     position: absolute;
     right: 0;
-    top: 60px;
+    top: 90px;
     display: block;
     width: 130px;
     height: 130px;
@@ -344,25 +345,25 @@ body {
 
 .php::before {
     left: 0;
-    top: 180px;
+    top: 200px;
     background: url('../images/icons8-php-logo-100.png') no-repeat center;
 }
 
 .mysql::before {
     left: 130px;
-    top: 180px;
+    top: 200px;
     background: url('../images/icons8-mysql-logo-96.png') no-repeat center;
 }
 
 .vue::before {
     left: 260px;
-    top: 180px;
+    top: 200px;
     background: url('../images/icons8-vue-js-96.png') no-repeat center;
 }
 
 .boot::before {
     left: 390px;
-    top: 180px;
+    top: 200px;
     background: url('../images/icons8-boot3-48.png') no-repeat center;
 }
 
@@ -384,6 +385,7 @@ body {
 }
 
 .project-list h3 {
+    margin-top: 30px;
     font-size: 22px;
     font-weight: 400;
     margin-bottom: 20px;
@@ -396,12 +398,24 @@ body {
     height: 400px;
     text-align: center;
 }
+.title-wrap {
+    position: absolute;
+    right: 80px;
+    top: 0;
+    display: block;
+    height: 100px;
+    width: 300px;
+}
+
 
 .cc-div>img {
     position: absolute;
     left: 50%;
-    top: 0;
+    top: 50px;
     transform: translateX(-50%);
+    display: block;
+    width: 350px;
+    height: 350px;
     filter: grayscale(100%);
     transition: all 0.3s;
     z-index: -1;
@@ -409,19 +423,18 @@ body {
 
 .cc-div:hover>img {
     filter: grayscale(0%);
-    box-shadow: 10px 5px 5px rgb(0 0 0 / 30%);
+    box-shadow: 5px 3px 3px rgb(0 0 0 / 5%);
 }
 
 .cc-div-box {
     position: relative;
     display: block;
-    margin-top: 1px;
-    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 .cc-link {
     position: relative;
-    margin-top: 10px;
     display: inline-block;
     padding: 10px 12px;
     border: 3px solid #3c67e3;
@@ -433,9 +446,8 @@ body {
 }
 
 .cc-div-title {
-    margin-top: 10px;
-    padding-bottom: 10px;
     font-size: 20px;
+    margin-bottom: 5px;
     color: #314163;
 }
 
@@ -451,8 +463,8 @@ body {
 
 .cc-div-icon {
     position: absolute;
-    right: 80px;
-    bottom: 28px;
+    right: 0px;
+    top: 0;
     display: block;
     width: 40px;
     height: 40px;
@@ -464,24 +476,23 @@ body {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background: rgba(190, 156, 156, 0.1);
 }
 
 .cc-div-icon i:nth-child(1) {
     right: 10px;
-    bottom: 0px;
+    bottom: -1px;
 
 }
 
 .cc-div-icon i:nth-child(2) {
-    right: -25px;
-    bottom: 40px;
+    right: -30px;
+    bottom: 34px;
 
 }
 
 .cc-div-icon i:nth-child(3) {
-    right: -65px;
-    bottom: 79px;
+    right: -70px;
+    bottom: 74px;
 
 }
 
@@ -495,8 +506,8 @@ body {
 .life {
     position: relative;
     display: block;
-    height: 100vh;
-    background-color: rgba(129, 183, 183, 0.2);
+    height: 500px;
+    background-color: #ddccdf;
 }
 
 .life .container {
@@ -505,7 +516,7 @@ body {
 }
 
 .life .container .about-tit{
-    margin-bottom: 100px;
+    margin-bottom: 40px;
 }
 
 .snip1445 {
@@ -625,6 +636,7 @@ body {
     filter: alpha(opacity=50);
     -webkit-opacity: 0.5;
     opacity: 0.5;
+    box-shadow: 10px 3px 3px rgb(0 0 0 / 5%);
 }
 
 .snip1445:hover figcaption:before,
@@ -693,7 +705,7 @@ body {
 .footer {
     position: relative;
     display: block;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: #a09da8;
     text-align: center;
     color: #314163;
 }
@@ -730,5 +742,3 @@ body {
 .footer .container li a:hover {
     color: #1697bf;
 }
-
-/* //footer */

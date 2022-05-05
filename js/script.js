@@ -27,13 +27,12 @@ window.onload = function () {
     $(document).ready(function ($) {
 
         $(gnb_a).click(function (event) {
-
             event.preventDefault();
-
+            console.log(gnb_a);
             $('html,body').animate({
                 scrollTop: $(this.hash).stop().offset().top - 160
             }, 500);
-
+            
         });
 
     });
