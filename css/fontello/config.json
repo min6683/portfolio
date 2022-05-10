@@ -65,6 +65,24 @@
       "css": "comment",
       "code": 59396,
       "src": "fontawesome"
+    },
+    {
+      "uid": "ff44f01f60948555026580eedf1e39bb",
+      "css": "html5",
+      "code": 61755,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "43be174b82af7559a7550ea38650ae4f",
+      "css": "css",
+      "code": 59397,
+      "src": "elusive"
+    },
+    {
+      "uid": "303f1f30-eda7-11e1-aff1-0800200c9a66",
+      "css": "blogger",
+      "code": 62228,
+      "src": "brandico"
     }
   ]
 }

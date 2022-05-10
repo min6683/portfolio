@@ -219,6 +219,7 @@ body {
     color: #0066cc;
     font-weight: 400;
     font-size: 18px;
+    padding-top: 30px;
 }
 
 .about-right {
@@ -388,7 +389,7 @@ body {
     margin-top: 30px;
     font-size: 22px;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #314163
 }
 
@@ -431,6 +432,9 @@ body {
     display: block;
     margin-top: 20px;
     margin-left: 30px;
+}
+.cc-div-box-vue {
+    padding: 0 45px;
 }
 
 .cc-link {
@@ -486,13 +490,13 @@ body {
 
 .cc-div-icon i:nth-child(2) {
     right: -30px;
-    bottom: 34px;
+    bottom: 39px;
 
 }
 
 .cc-div-icon i:nth-child(3) {
-    right: -70px;
-    bottom: 74px;
+    right: -75px;
+    bottom: 76px;
 
 }
 
@@ -506,13 +510,13 @@ body {
 .life {
     position: relative;
     display: block;
-    height: 500px;
+    height: 530px;
     background-color: #ddccdf;
+    margin-top: 600px;
 }
 
 .life .container {
     height: 500px;
-    margin-top: 500px;
 }
 
 .life .container .about-tit{
@@ -663,6 +667,7 @@ body {
     position: relative;
     display: block;
     height: 500px;
+    margin-bottom: 50px;
 }
 
 .contact .container {
@@ -742,3 +747,4 @@ body {
 .footer .container li a:hover {
     color: #1697bf;
 }
+/* //footer */

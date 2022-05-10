@@ -4,8 +4,11 @@
 .icon-wrench:before { content: '\e802'; } /* '' */
 .icon-mail:before { content: '\e803'; } /* '' */
 .icon-comment:before { content: '\e804'; } /* '' */
+.icon-css:before { content: '\e805'; } /* '' */
 .icon-github-circled:before { content: '\f09b'; } /* '' */
 .icon-menu:before { content: '\f0c9'; } /* '' */
 .icon-info:before { content: '\f129'; } /* '' */
 .icon-attention-alt:before { content: '\f12a'; } /* '' */
+.icon-html5:before { content: '\f13b'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-blogger:before { content: '\f314'; } /* '' */
