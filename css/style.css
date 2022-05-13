@@ -161,8 +161,8 @@ body {
 .visual-tit h2::before {
     content: '';
     position: absolute;
-    right: -200px;
-    top: -100px;
+    right: -450px;
+    top: -110px;
     display: block;
     width: 500px;
     height: 500px;
@@ -173,20 +173,20 @@ body {
 .visual-tit h3 {
     font-size: 24px;
     color: #145493;
-    margin-bottom: 70px;
-    text-align: center;
+    margin-bottom: 40px;
+    text-align: left;
 }
 
 .about {
     position: relative;
     display: block;
+    height: 800px;
     background-color: #fff2ce;
 }
 
 .about .container {
-    height: 630px;
-    margin-top: 500px;
-    margin-bottom: 500px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 .about-left {
@@ -275,11 +275,11 @@ body {
 .skill {
     position: relative;
     display: block;
+    height: 400px;
 }
 
 .skill .container {
     margin-top: 100px;
-    height: 600px;
 }
 .skill .container .about-tit {
     margin-bottom: 30px;
@@ -371,12 +371,11 @@ body {
 .project {
     position: relative;
     display: block;
-    height: 100vh;
+    height: 100%;
 
 }
 
 .project .container {
-    height: 1000px;
 }
 
 .project-list {
@@ -484,17 +483,35 @@ body {
 
 .cc-div-icon i:nth-child(1) {
     right: 10px;
-    bottom: -1px;
+    bottom: 1px;
 
 }
 
 .cc-div-icon i:nth-child(2) {
     right: -30px;
-    bottom: 39px;
+    bottom: 36px;
 
 }
 
 .cc-div-icon i:nth-child(3) {
+    right: -70px;
+    bottom: 76px;
+
+}
+
+.vue-div-icon i:nth-child(1) {
+    right: 10px;
+    bottom: -1px;
+
+}
+
+.vue-div-icon i:nth-child(2) {
+    right: -30px;
+    bottom: 39px;
+
+}
+
+.vue-div-icon i:nth-child(3) {
     right: -75px;
     bottom: 76px;
 
@@ -512,11 +529,10 @@ body {
     display: block;
     height: 530px;
     background-color: #ddccdf;
-    margin-top: 600px;
+    margin-top: 200px;
 }
 
 .life .container {
-    height: 500px;
 }
 
 .life .container .about-tit{
